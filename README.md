@@ -29,3 +29,53 @@ Follow these steps to run this project on your machine:
 
 ```bash
 git clone https://github.com/<username>/<repo>.git
+```
+
+2. **Navigate into the project folder**:
+
+```bash
+cd todo
+```
+
+3. **Install dependencies**:
+
+```bash
+npm install
+```
+
+4. **Start the development server**:
+```bash
+npm run dev
+```
+
+5. Open your browser at http://localhost:5173 (Vite default) to see the app.
+
+
+## Learning Notes
+
+1. This project helped me:
+2. Apply Tailwind CSS to a React project
+3. Build responsive UIs
+4. Manage state with useState
+5. Persist data using localStorage
+6. Experiment with animations using GSAP
+7. Learn by building real projects step by step
+
+## Folder Structure
+
+```bash
+todo/
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ screenshots/
+│  ├─ desktop.png
+│  └─ mobile.png
+├─ package.json
+├─ package-lock.json
+├─ vite.config.js
+└─ README.md
+```
